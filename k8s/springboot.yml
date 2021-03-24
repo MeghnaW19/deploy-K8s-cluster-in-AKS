@@ -1,0 +1,7 @@
+#Define Deployment by using the Spring Boot app image pushed to Docker Hub
+apiVersion: apps/v1
+
+---
+#Define Service of type LoadBalancer, name: springboot-svc, and targetPort:8080.
+apiVersion: v1
+
